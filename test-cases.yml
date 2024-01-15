@@ -81,14 +81,14 @@
     requirement: |
     Пользователь должен иметь возможность авторизоваться
   prerequisites: |
-    Пользователь должен иметь учетную запись на сайте https://discord.com/
-    Пользователь находится на сайте https://codebattle.hexlet.io/
+    Пользователь должен иметь учетную запись на сайте https://discord.com
+    Пользователь находится на сайте https://codebattle.hexlet.io
   test-data: |
     empty
   steps:
-    - Нажимаем на кнопку 'Sign In'
-    - Нажимаем на кнопку 'Sign in with Discord'
-    - На странице сайта 'Discord' вводим данные от учетной записи на сайте
+    - Нажимаем на кнопку 'SIGN IN'
+    - Нажимаем на кнопку 'SIGN IN WITH DISCORD'
+    - На странице сайта 'Discord' вводим данные от учетной записи на сайта
       'Discord'
     - Нажимаем 'Вход'
   expected-result: |
