@@ -81,8 +81,8 @@
     requirement: |
     Пользователь должен иметь возможность авторизоваться
   prerequisites: |
-    Пользователь должен иметь учетную запись на сайте https://discord.com
-    Пользователь находится на сайте https://codebattle.hexlet.io
+     Пользователь должен иметь учетную запись на сайте https://discord.com
+     Пользователь находится на сайте https://codebattle.hexlet.io
   test-data: |
     empty
   steps:
