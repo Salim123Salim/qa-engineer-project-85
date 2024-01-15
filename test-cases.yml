@@ -196,4 +196,33 @@
   expected-result: |
     Создается игра с соперником, видим ход написания кода 
 
+- summary: |
+   Проверка победы при правильном решении
+  requirement: |
+   - Пользователь должен победить при правильном решении быстрее соперника
+  prerequisites: |
+   Находимся на сайте https://codebattle.hexlet.io/#lobby
+   Пользователь авторизован
+  test-data: |
+   const _ = require("lodash");
+   const R = require("rambda");
+
+   const solution = (width, length) => {
+   return width * length;
+   };
+
+   module.exports = solution
+  steps:
+    - Нажимаем на кнопку 'CREATE A GAME'
+    - В разделе 'LEVEL' выбираем одну звезду        
+    - В разделе 'GAME TYPE' выбираем 'WITH A BOT'
+    - В разделе 'TIME CONTROL' выбираем любое значение
+    - В разделе 'CHOOSE A TASK BY NAME OR TAGS' выбираем значение 'RECT_AREA'
+    - Нажимаем на кнопку 'CREATE BATTLE'
+    - Выбираем язык на котором будем писсать код 'Node.js'
+    - Вводим код, который указан в тестовых данных
+    - Нажимаем на кнопку 'RUN'
+  expected-result: |
+    Пользователь победил в игре, выводится модальное окно с сообщением: 'Woohoo, you're Champion!!!!!'
+
   
