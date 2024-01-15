@@ -1,0 +1,64 @@
+---
+ - summary: |
+    Регистрация пользователя
+   status: pass
+
+ - summary: |
+    Регистрация пользователя c невалидным email
+   status: pass
+
+ - summary: |
+    Авторизация пользователя
+   status: pass
+
+ - summary: |
+    Авторизация пользователя через GitHub
+   status: pass
+
+ - summary: |
+    Авторизация через учетную запись сайта 'Discord'
+   status: pass
+
+ - summary: |
+     Создание игры с ботом
+   status: pass
+
+ - summary: |
+    Создание игры без регистрации 
+   status: pass
+
+ - summary: |
+     Создание игры со случайным соперником
+   status: pass
+
+ - summary: |
+    Создание турнира
+   status: pass
+
+ - summary: |
+    Создание игры с другом по ссылке-приглашению
+   status: pass
+
+ - summary: |
+    Участие  игре с другом по приглашению
+   status: pass
+
+ - summary: |
+    Проверка отображения написания кода соперником
+   status: pass
+
+ - summary: |
+    Проверка победы при правильном решении
+   status: pass
+
+ - summary: |
+    Проверка проигрыша игры
+   status: pass
+
+ - summary: |
+    Проверка 'CДАЧИ' в игре
+   status: pass
+
+ - summary: |
+    Проверка результата игры, когда закончилось время
+   status: pass
